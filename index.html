@@ -1,19 +1,3 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,14 +9,12 @@
   <!-- Animate library -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <!-- Put your site title here -->
   <title>
     Mirel Pascu | A Front-End Developer based in Vejle, DK
   </title>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="description" content="Portfolio of Mirel Pascu.">
+  <meta name="keywords" content="HTML,CSS, TailwindCSS, JavaScript, React, Git, Responsive Design." />
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -129,12 +111,12 @@
               </p>
               <ul class="work__list">
                 <li>React</li>
-                <li>CSS</li>
+                <li>Tailwind CSS</li>
                 <li>Github</li>
               </ul>
 
               <div class="work__links">
-                <a href="https://tech87.github.io/quizzical/" target="_blank" class="link__text">
+                <a href="https://type-app.netlify.app/" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
               </div>
@@ -221,7 +203,8 @@
     <section class="about" id="about">
       <div class="row">
         <h2>About Me</h2>
-        <div class="about__content">
+        <div class="about__boxes">
+         <div class="about__content">
           <div class="about__text" data-aos="fade-left" data-aos-delay="1200">
             <p>As a former semiprofessional football player, I've always thrived in environments that value teamwork, dedication, and the pursuit of excellence. Now, I've transitioned my passion for collaboration and performance into the world of web development.
               I've recently completed Scrimba's Front End Developer Path, where I honed my skills in crafting captivating web experiences using a variety of cutting-edge technologies. With a strong foundation in React, JavaScript, CSS, HTML, and the art of Tailwind CSS, I have the tools and expertise to turn ideas into visually stunning and highly functional websites.</p>
@@ -235,6 +218,7 @@
           <div class="about__photo-container" data-aos="fade-right" data-aos-delay="1000">
             <img class="about__photo" src="./images/mirel.jpg"  alt="" />
           </div>
+         </div>
         </div>
       </div>
     </section>
@@ -249,7 +233,6 @@
         <p>
           Are you in need of a website that's both swift and user-friendly to represent your product or business? Do you require consultation, have inquiries, wish to offer suggestions, or simply want to say "Hello 👋"? In any case, please feel free to get in touch. Your communication is important to me, and I am dedicated to ensuring a timely response. For the most efficient contact, kindly use email or Linkedin as the preferred mode of communication.
         </p>
-        <!-- Replace the email with yours -->
         <a href="mailto:mirel_pascu@yahoo.com" class="btn">Send email</a>
       </div>
     </div>
@@ -259,7 +242,6 @@
 
   <footer role="contentinfo" class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
           <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
@@ -289,7 +271,7 @@
     AOS.init({
       delay: 200, // values from 0 to 3000, with step 50ms
       duration: 1500, // values from 0 to 3000, with 50ms
-      once: false,
+      once: true,
       mirror: false
     });
   </script>
