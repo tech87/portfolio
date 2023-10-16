@@ -326,11 +326,19 @@ body:not(.user-is-tabbing) a:focus {
     .back-to-top {
         right: 2rem;
     }
+    .link__text {
+        border: 1px solid var(--pink);
+        padding: 1rem;
+    }
 }
 
 @media(max-width: 500px) {
     .back-to-top {
         right: 1rem;
+    }
+    .link__text {
+        border: 1px solid var(--pink);
+        padding: 0.8rem;
     }
 }
 
