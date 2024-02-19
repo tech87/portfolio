@@ -450,7 +450,7 @@ body:not(.user-is-tabbing) a:focus {
         background-repeat:no-repeat;
     }
 
-    @media(max-width: 800px) {
+    @media(max-width: 1240px) {
         .header {
             text-align: center;
             background-image:linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, 1)), url('./images/header.jpg'); 
