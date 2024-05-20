@@ -269,6 +269,7 @@ body:not(.user-is-tabbing) a:focus {
     color: inherit;
     text-decoration: none;
     border-bottom: 1px solid var(--pink);
+    margin-top: 15px;
 }
 
 .link__text::after {
@@ -466,8 +467,8 @@ body:not(.user-is-tabbing) a:focus {
     .header__text p {
         transform: scale(.8);
     }
-}
-
+  }
+ }
 /* --------------------------------------- */
 /* ----- Work ----- */
 /* --------------------------------------- */
@@ -589,6 +590,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .footer__social-links {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     padding: var(--gutter-normal) 0;
     list-style: none;
@@ -617,4 +619,4 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
-}
+ }
