@@ -272,6 +272,10 @@ body:not(.user-is-tabbing) a:focus {
     margin-top: 15px;
 }
 
+.source_code_link {
+    margin-left: 50px;
+}
+
 .link__text::after {
     content: '';
     display: block;
