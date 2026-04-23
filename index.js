@@ -1,6 +1,10 @@
 /* -----------------------------------------
   Have focus outline only for keyboard users 
  ---------------------------------------- */
+const showDate = document.querySelector(".date");
+const date = new Date().getFullYear();
+showDate.innerHTML = `&copy; ${date} - Mirel Pascu`;
+
 
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
@@ -41,3 +45,5 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+
